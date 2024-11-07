@@ -12,7 +12,7 @@ const handler = async (m, {isOwner, isAdmin, conn, text, participants, args, com
   const oi = `${pesan}`;
   let teks = `*𝘽𝙤𝙣𝙮 𝘽𝙤𝙩 ✨*\n\n *Integrantes :  ${participants.length}* ${oi}\n\n┌──⭓ Ya revivan\n`;
   for (const mem of participants) {
-    teks += `🌼 @${mem.id.split('@')[0]}\n`;
+    teks += `🥕 @${mem.id.split('@')[0]}\n`;
   }
   teks += `└───────⭓
 
