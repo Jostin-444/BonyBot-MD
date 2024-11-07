@@ -22,12 +22,12 @@ global.prems = []
 //*─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─*
 
 global.packname = ``
-global.author = '{\n "bot": {\n   "name": "Sumi - Sakurasawa",\n     "author": "Danịel",\n   "status_bot": "active"\n }\n}'
-global.wait = '🐢 *Sumi Sakurasawa*'
-global.botname = 'Sumi - Sakurasawa'
-global.textbot = `Powered By Starlights Team`
-global.listo = '*🍭 Aqui tiene*'
-global.namechannel = '【 ✯ Starlights Team - Oficial Chanel ✰ 】'
+global.author = '{\n "bot": {\n   "name": "𝘽𝙤𝙣𝙮 𝘽𝙤𝙩 🥕",\n     "author": "Sj Good",\n   "status_bot": "active"\n }\n}'
+global.wait = '𝘽𝙤𝙣𝙮 𝘽𝙤𝙩 🥕'
+global.botname = '𝘽𝙤𝙣𝙮 𝘽𝙤𝙩 🥕'
+global.textbot = `Que Hay de Nuevo Viejo`
+global.listo = 'Una Zanahoria 🥕'
+global.namechannel = '🄱🄾🄽🅈 🄱🄾🅃'
 
 //*─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─*
 
@@ -36,8 +36,8 @@ global.bonyurl = fs.readFileSync('./storage/img/bonyurl.jpg')
 
 //*─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─*
 
-global.group = 'https://chat.whatsapp.com/J1R402WH1N0Hdl3S0NDEYu'
-global.canal = 'https://whatsapp.com/channel/0029VaBpO8M3rZZdwkGFIP33'
+global.group = 'https://chat.whatsapp.com/FsH5PFzxkodKr8APUgjFZn'
+global.canal = 'https://whatsapp.com/channel/0029VappSxMFXUuVAjnqPB3N'
 
 //*─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─*
 
