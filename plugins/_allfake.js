@@ -14,7 +14,7 @@ let img = catalogo
 	    externalAdReply: {
 				    showAdAttribution: true,
 					title: botname,
-					body: 'Hola',
+					body: 'Que Hay de Nuevo Viejo? 🥕',
 					mediaUrl: null,
 					description: null,
 					previewType: "PHOTO",
