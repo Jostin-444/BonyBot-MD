@@ -40,7 +40,7 @@ let handler = async (m, { conn }) => {
     await m.react('✖️')
   }
 }
-handler.tags = ['tools']
+handler.tags = ['tourl']
 handler.help = ['tools']
 handler.command = /^(ibb|tourl)$/i
 handler.register = true 
