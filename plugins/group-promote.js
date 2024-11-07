@@ -9,7 +9,7 @@ let handler = async (m, {conn, usedPrefix, text}) => {
   if (!text && !m.quoted)
     return conn.reply(
       m.chat,
-      '🚩 Use el comandó correctamente\n\n`Ejemplo :`\n\n> . promote @daniel',
+      '🚩 Use el comandó correctamente\n\n`Ejemplo :`\n\n> . promote @Bony',
       m
     );
   if (number.length > 13 || (number.length < 11 && number.length > 0))
@@ -29,7 +29,7 @@ let handler = async (m, {conn, usedPrefix, text}) => {
     conn.reply(m.chat, `🚩 ordenes recibidas`, m);
   }
 };
-handler.help = ["*593xxx*", "*@usuario*", "*responder chat*"].map((v) => "promote " + v);
+handler.help = ["*.promote*", "*@usuario*", "*responder chat*"].map((v) => "promote " + v);
 handler.tags = ["group"];
 handler.command = /^(promote|daradmin|darpoder)$/i;
 handler.group = true;
