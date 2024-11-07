@@ -26,7 +26,7 @@ await m.react('✖️')
 }}
 handler.help = ['tourl']
 handler.tags = ['tools']
-handler.command = /^(tourl|upload)$/i
+handler.command = /^(tourluuuu|uploadyeueuej)$/i
 export default handler
 
 function formatBytes(bytes) {
