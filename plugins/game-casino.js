@@ -17,7 +17,7 @@ let handler = async (m, { conn, args, usedPrefix, command, DevMode }) => {
 	    
 	    if (cooldowns[m.sender] && Date.now() - cooldowns[m.sender] < tiempoEspera * 1000) {
     let tiempoRestante = segundosAHMS(Math.ceil((cooldowns[m.sender] + tiempoEspera * 1000 - Date.now()) / 1000))
-    conn.reply(m.chat, `🍭 Ya has iniciado una apuesta recientemente, espera *⏱ ${tiempoRestante}* para apostar nuevamente`, m, rcanal)
+    conn.reply(m.chat, `🥕 Ya has iniciado una apuesta recientemente, espera *⏱ ${tiempoRestante}* para apostar nuevamente`, m, rcanal)
     return
   }
   
@@ -25,7 +25,7 @@ let handler = async (m, { conn, args, usedPrefix, command, DevMode }) => {
 	    
         count = count ? /all/i.test(count) ? Math.floor(global.db.data.users[m.sender].limit / buatall) : parseInt(count) : args[0] ? parseInt(args[0]) : 1
         count = Math.max(1, count)
-        if (args.length < 1) return conn.reply(m.chat, '🍭 Ingresa la cantidad de ' + `*🍬 Dulces*` + ' que deseas aportar contra' + ` *Sumi Sakurasawa*` + `\n\n` + '`Ejemplo:`\n' + `> *${usedPrefix + command}* 100`, m, rcanal)
+        if (args.length < 1) return conn.reply(m.chat, '🥕 Ingresa la cantidad de ' + `*🍬 Dulces*` + ' que deseas aportar contra' + ` *Sumi Sakurasawa*` + `\n\n` + '`Ejemplo:`\n' + `> *${usedPrefix + command}* 100`, m, rcanal)
 
         if (user.limit >= count * 1) {
             user.limit -= count * 1
